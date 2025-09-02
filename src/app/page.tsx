@@ -222,9 +222,9 @@ export default async function Home() {
 				className="mt-24 sm:mt-32 lg:mt-40"
 				client={{ name: "Phobia", logo: logoPhobiaDark }}
 			>
-				The team at Studio went above and beyond with our onboarding, even
-				finding a way to access the user’s microphone without triggering one of
-				those annoying permission dialogs.
+				The team at PilotX Studio went above and beyond with our onboarding,
+				even finding a way to access the user’s microphone without triggering
+				one of those annoying permission dialogs.
 			</Testimonial>
 
 			<ContactSection />
