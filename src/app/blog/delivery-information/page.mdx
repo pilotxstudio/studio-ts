@@ -1,0 +1,113 @@
+import imageChelseaHagon from '@/images/team/chelsea-hagon.jpg'
+
+export const article = {
+  date: '2025-04-06',
+  title: 'Delivery Information',
+  description: 'Terms of Service for The PilotX Studio — legal terms covering services, payments, IP, confidentiality, and data protection.',
+  author: { 
+    name: 'PilotX Studio',
+    role: 'Team',
+    image: { src: imageChelseaHagon },
+  }, }
+
+export const metadata = { title: article.title, description: article.description, }
+
+
+## Overview
+
+At PilotX Studio we deliver digital products, design assets and engineering work in ways that make handovers fast, repeatable and low-friction. This page explains how we deliver work, what to expect from timelines and handoffs, how acceptance and revisions work, and what support we provide after delivery.
+
+## Typical delivery methods
+
+We use the delivery channel that best fits the project and your stack. Common methods include:
+
+* Shared Git repositories (GitHub, GitLab) with branches, tags and release notes.
+* Design handoff through Figma links and export packs (SVG, PNG, PDF, design tokens).
+* Downloadable archives for builds and assets (ZIP, tar.gz) stored on secure file hosting (S3 / private CDN).
+* Docker images or container registries for deployable services.
+* Staging and production deployments to your cloud environment (AWS, GCP, Azure) or to hosting accounts you provide.
+* Project documentation, runbooks and deployment instructions delivered as Markdown, PDF or internal wiki pages.
+
+We’ll agree the exact channel in the proposal or SOW so there are no surprises at handoff.
+
+## Delivery schedule & milestones
+
+* Each project includes a timeline in the SOW with milestones, estimated delivery dates and acceptance points.
+* Milestone dates are estimates and depend on timely client feedback and any third-party approvals. Major delays caused by missing input may push the schedule and will be communicated immediately.
+* Where faster delivery is required, we can offer an expedited timeline subject to resource availability and an adjusted fee.
+
+## What you’ll receive at handoff
+
+Depending on the project, a typical handoff package includes:
+
+* Final source code in a Git repo with tags and setup instructions.
+* Design files and assets (Figma links, artboards, icons, exported assets and style guide).
+* A packaged build (static site, compiled app, Docker image).
+* Technical documentation: architecture summary, API docs, environment variables, runbook for deployment and rollback.
+* Test results and known issues list.
+* License and IP transfer statement (once final payment is received).
+* Optional: onboarding session or recorded walkthrough.
+
+## Acceptance & revisions
+
+* Each milestone will include a defined acceptance window (usually 5–10 business days) during which you can review the deliverable and request reasonable corrections.
+* Minor revisions (UI tweaks, bug fixes within scope) are included as specified in the SOW. Significant scope changes will be handled via a change order and may affect cost and timeline.
+* Once a deliverable is accepted in writing (email or project tracker), it is considered final for that milestone.
+
+## Deployments & hosting handover
+
+* We can deploy to client environments or deploy to our staging environment and coordinate your deployment. The proposal will clarify responsibilities.
+* For deployments to your accounts, you must provide access credentials or temporary provisioning rights in advance. We recommend short-lived access tokens and following your internal security policies.
+* We provide deployment/runbook documentation to make future deployments repeatable.
+
+## Post-delivery support & maintenance
+
+* We offer optional maintenance and support plans (bug fixes, minor feature work, security patches) billed monthly or on a time-and-materials basis. Details and SLAs are listed in the SOW or support agreement.
+* After handover, we provide a limited warranty period for defects (e.g., 30 days) as defined in your contract. Critical issues will be prioritized according to the agreed support tier.
+
+## File formats & ownership
+
+* Deliverables will be provided in industry-standard, editable formats (source code, Figma, Sketch exports, PSD/AI if used). If you require a specific format, tell us during scoping.
+* Ownership of final deliverables transfers to you upon full payment, except for our pre-existing tools, libraries and third-party components (these are licensed, not sold). See the IP section in the Terms of Service for details.
+
+## Change requests & scope creep
+
+* Requests outside the agreed scope are handled as change requests. We’ll provide an estimate and revised timeline for approval. Work on approved change requests begins after written sign-off.
+* We track scope changes transparently in the project board so budget and timeline impacts are clear.
+
+## Security, backups & sensitive data
+
+* We follow standard security practices: encrypted storage for credentials, least-privilege access, and secure transfer channels (SFTP / HTTPS).
+* We recommend clients provide test accounts and not share production credentials until needed. When production access is required, we prefer short-lived credentials.
+* We keep backups of deliverables for a reasonable period; long-term retention and backup arrangements can be included in a maintenance agreement.
+
+## International delivery & services
+
+* We deliver work globally and may use international hosting and CI/CD providers. Any third-party fees, data transfer considerations or local taxes are outlined in the proposal.
+* If your project involves regulated data (HIPAA, GDPR-sensitive datasets, financial data), notify us at scoping so we can include the appropriate contractual and technical safeguards.
+
+## Delays, force majeure & cancellations
+
+* We’ll notify you promptly if we foresee delays. If either party needs to pause or cancel work, the termination and refund terms in the proposal and Terms of Service apply.
+* We aren’t liable for delays caused by force majeure events (natural disasters, strikes, government actions) but will work with you to resume work as soon as practical.
+
+## Pricing & invoicing related to delivery
+
+* Final delivery and IP transfer are conditional on full payment per the payment terms in the SOW.
+* Additional costs for expedited delivery, third-party licenses or new infrastructure will be invoiced separately with your prior approval.
+
+## Common FAQs (quick)
+
+**Q: How will I get my code and assets?**
+A: We push code to the agreed Git repo, share Figma links for design, and provide a ZIP or cloud link for packaged assets plus documentation.
+
+**Q: Can you deploy to our cloud account?**
+A: Yes — we’ll coordinate access and deploy following your environment and security rules.
+
+**Q: What if I need a small update after delivery?**
+A: Small fixes within the warranty period are handled per the SOW. For ongoing work we offer retainers or hourly support.
+
+## Contact & escalation
+
+For delivery questions, handoff requests or urgent deployment help, contact us:
+**[delivery@pilotxstudio.com](mailto:delivery@pilotxstudio.com)** or your project lead listed in the SOW. If you don’t receive a response within 48 hours for non-urgent matters, escalate to **[ops@pilotxstudio.com](mailto:ops@pilotxstudio.com)** (replace with your preferred addresses).

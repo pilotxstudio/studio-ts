@@ -7,15 +7,14 @@ import { socialMediaProfiles } from "@/components/SocialMedia";
 
 const navigation = [
 	{
-		title: "Work",
+		title: "Company",
 		links: [
-			{ title: "FamilyFund", href: "/work/family-fund" },
-			{ title: "Unseal", href: "/work/unseal" },
-			{ title: "Phobia", href: "/work/phobia" },
+			{ title: "About", href: "/about" },
+			{ title: "Process", href: "/process" },
 			{
 				title: (
 					<>
-						See all <span aria-hidden="true">&rarr;</span>
+						Case studies <span aria-hidden="true">&rarr;</span>
 					</>
 				),
 				href: "/work",
@@ -23,11 +22,11 @@ const navigation = [
 		],
 	},
 	{
-		title: "Company",
+		title: "Customer Policies",
 		links: [
-			{ title: "Privacy", href: "/blog/privacy-statement" },
-			{ title: "About", href: "/about" },
-			{ title: "Process", href: "/process" },
+			{ title: "Privacy Notice", href: "/blog/privacy-statement" },
+			{ title: "Terms of Service", href: "/blog/terms-of-service" },
+			{ title: "Delivery Information", href: "/blog/delivery-information" },
 			{ title: "Contact us", href: "/contact" },
 		],
 	},

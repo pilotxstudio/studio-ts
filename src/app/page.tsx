@@ -41,7 +41,7 @@ function Clients() {
 					<h2 className="font-display text-4xl font-semibold tracking-wider text-white sm:text-left">
 						Trusted by leading brands and teams
 					</h2>
-					<p className="text-neutral-300 pt-2 text-lg">
+					<p className="text-neutral-300 pt-4 text-lg">
 						These logos highlight the companies that trust us with full,
 						end-to-end projects.
 					</p>
@@ -202,7 +202,7 @@ export default async function Home() {
 		<>
 			<Container className="mt-24 sm:mt-32 md:mt-56">
 				<FadeIn className="max-w-3xl">
-					<h1 className="font-display text-5xl font-medium tracking-tight [text-wrap:balance] text-neutral-950 sm:text-7xl">
+					<h1 className="font-display text-6xl font-medium tracking-tight [text-wrap:balance] text-neutral-950 sm:text-7xl">
 						The Flow Agency — Design, engineering & AI that ship.
 					</h1>
 					<p className="mt-6 text-xl text-neutral-600">
